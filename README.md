@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Saurabh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 900px;
+            line-height: 1.6;
+            color: #222;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 20px 25px;
+            border: 1px solid #dfe6e9;
+            border-radius: 12px;
+            background: #f9f9f9;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #1b1b1b;
+            border-bottom: 2px solid #00c2ff;
+            padding-bottom: 8px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-    }        
-
-    header   {
-        text-align: center;
-    }
-
-    section {
-        margin-bottom: 9000px;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    section{
-        margin: auto;
-    }
-    h2{
-        border-color: aqua;
-    }
-    p{
-        border-width: 34cm;
-    }
-    footer{
-        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        margin-bottom: 30px;
-    }
-</style>
 
 <body>
 
-    <!-- Header Section -->
     <header>
         <h1>Saurabh</h1>
         <p>B.Tech Computer Science (Data Science) Student</p>
     </header>
 
-    <hr>
-
-    <!-- Main Content -->
     <main>
 
-        <!-- About Me Section -->
         <section>
             <h2>About Me</h2>
             <p>
@@ -59,9 +77,6 @@
             </p>
         </section>
 
-        <hr>
-
-        <!-- Education Section -->
         <section>
             <h2>Education</h2>
             <ul>
@@ -72,9 +87,6 @@
             </ul>
         </section>
 
-        <hr>
-
-        <!-- Technical Skills Section -->
         <section>
             <h2>Technical Skills</h2>
             <ul>
@@ -85,15 +97,6 @@
             </ul>
         </section>
 
-        <hr>
-        <style>
-            section{
-                border-radius: 23px ;
-                margin-bottom: 90px;
-            }
-        </style>
-
-        <!-- Hobbies & Interests Section -->
         <section>
             <h2>Interests</h2>
             <ul>
@@ -103,31 +106,18 @@
             </ul>
         </section>
 
-        <hr>
-
-        <!-- Contact Section -->
         <section>
             <h2>Contact Information</h2>
-            <p>Email: <a href="mailto:example@email.com">saurabhsaitm26@email.com</a></p>
-            <p>GitHub: <a href="https://github.com" target="_blank">saurabh.github.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com" target="_blank">saurabh.linkedin.com</a></p>
+            <p>Email: <a href="mailto:saurabhsaitm26@email.com">saurabhsaitm26@email.com</a></p>
+            <p>GitHub: <a href="https://github.com/saurabh-0034" target="_blank" rel="noopener">saurabh-0034</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
         </section>
 
     </main>
 
-    <hr>
-    <style>
-        footer{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin-top: 30px ;
-        }
-    </style>
-
-    <!-- Footer Section -->
     <footer>
         <p>&copy; 2026 Saurabh. All rights reserved.</p>
     </footer>
 
 </body>
-
 </html>
